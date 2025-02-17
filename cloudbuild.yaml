@@ -11,7 +11,7 @@ steps:
   - name: 'gcr.io/cloud-builders/docker'
     args:
       - 'push'
-      - 'us-central1-docker.pkg.dev/$PROJECT_ID/meet-100941191/app:${COMMIT_SHA}'
+      - 'us-central1-docker.pkg.dev/$PROJECT_ID/sushmita-100941191/app:${COMMIT_SHA}'
 
   # Deploy to Cloud Run
   - name: 'gcr.io/google.com/cloudsdktool/google-cloud-cli'
